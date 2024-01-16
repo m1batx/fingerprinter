@@ -13,6 +13,7 @@ class DataUser:
         self.ip = ip
         self.agent = agent
 
+
 # Collect information about the client's computer and system
 @app.route('/')
 def stoleInformation():
