@@ -40,4 +40,4 @@ if __name__ == '__main__':
     flask_thread.start()
 
     # Main program can continue or terminate while Flask runs in the background
-    input("Press Enter to exit...")
+   # input("Press Enter to exit...")
