@@ -1,4 +1,4 @@
-scam site for education purpose 
+fingerprinting site for education purpose 
 this site on the user side will open it for any reson the site can set for, will collect his data on a secret database
 
 the data which can be collected by this site : 
